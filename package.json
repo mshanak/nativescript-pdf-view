@@ -58,10 +58,8 @@
     "@semantic-release/condition-codeship": "1.1.0",
     "@semantic-release/release-notes-generator": "2.0.0",
     "semantic-release": "6.3.2",
-     
     "tns-core-modules": "^3.0.0 || ^3.0.0-rc.1",
-        "tns-platform-declarations": "^3.0.0 || ^3.0.0-rc.1",
-
+    "tns-platform-declarations": "^3.0.0 || ^3.0.0-rc.1",
     "tslint": "4.4.2",
    "typescript": "^2.2.2"
   },
