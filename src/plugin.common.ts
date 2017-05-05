@@ -1,8 +1,9 @@
 import * as app from 'application';
-import { Property } from 'ui/core/dependency-observable';
-import * as proxy from 'ui/core/proxy';
-import * as view from 'ui/core/view';
-import * as dialogs from 'ui/dialogs';
+import { Property } from 'tns-core-modules/ui/core/dependency-observable';
+import * as proxy from 'tns-core-modules/ui/core/proxy';
+import * as view  from 'tns-core-modules/ui/core/view';
+import * as dialogs from 'tns-core-modules/ui/dialogs';
+
 
 export abstract class PDFView extends view.View {
   private static srcProperty = new Property(
